@@ -34,8 +34,8 @@ const Main = ({className}) => {
                     <span className="text text--dark text--small">Calorie Goal For Today (a minimum of 1200 calories)</span>
                 </div>
                 <label htmlFor="calorieInput">Calories</label>
-                <input className="text" onChange={updateCalories} value={calories} type="number" id="calorieInput" min="1200" placeholder="1800" />
-                 <button className="text text--light">Generate Meals</button>
+                <input title="calorieInput" className="text" onChange={updateCalories} value={calories} type="number" id="calorieInput" min="1200" placeholder="1800" />
+                 <button title="generateMealButton" className="text text--light">Generate Meals</button>
             </form>
 
             <section>
